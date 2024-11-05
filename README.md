@@ -6,7 +6,7 @@ Script to initiate facial expressions at any time during a looped animation with
 # Purpose
 If you are using a looped animation, it is cumbersome to change facial expression with keyframes when a specific event happens in your game. This is because in a loop that facial expression would be triggered on each pass through the loop. Also, the point of trigger would be fixed. This script solves that problem. The demo project uses Unity 6.
 
-#Setup notes
+# Setup notes
 1.	In Unity 2019, the Animator component on your NPC must have Update Mode set to “Animate Physics”.
 2.	In Unity 6, the Animator component on your NPC must have “Animate Physics’ checked and Update Mode set to “Fixed”.
 3.	The NPC will have an array of available blendshapes in the Head object.
